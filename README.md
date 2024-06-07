@@ -17,3 +17,21 @@ This repository contains two useful tools that were used when creating the [Apac
 Both of the tools mentioned above are already built and exist inside of the `shiro1buntu-latest.tar` exported `Docker` image file, which can be downloaded under the `Releases` page. To import the image, run the following command below:
 
 `docker load -i <path_to_tar_file>`
+
+## Usage
+
+`shiro-crack`:
+
+```
+./a.out <password_file> <shiro_hash>
+```
+
+`shiro-hash-generator`:
+
+```
+java -jar <path-to-jar> <string-to-hash> <iterations>
+```
+
+## Disclaimer
+
+This program is intended for legitimate and authorized purposes only. The author holds no responsibility or liability for misuse of this project.
