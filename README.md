@@ -32,6 +32,14 @@ Both of the tools mentioned above are already built and exist inside of the `shi
 java -jar <path-to-jar> <string-to-hash> <iterations>
 ```
 
+## CVE-2024-4956
+
+A script to automate exploiting `CVE-2024-4956`, a path traversal vulnerability in Sonatype Repository 3 allowing unauthenticated attackers to read system files is available [here](https://github.com/fin3ss3g0d/CVE-2024-4956). Sonatype Repository 3 uses the Apache Shiro 1 hashing algorithm at the time of writing and stores user hashes inside of OrientDB .pcl files. A sample of 155 known OrientDB .pcl existing file paths are included in the repository.
+
+## Shiro1Extractor
+
+A script for automating the extraction of Apache Shiro 1 hashes from OrientDB .pcl files is available [here](https://github.com/fin3ss3g0d/Shiro1Extractor) for extracting/gathering hashes to use with the Hashcat module.
+
 ## Disclaimer
 
 This program is intended for legitimate and authorized purposes only. The author holds no responsibility or liability for misuse of this project.
