@@ -9,6 +9,8 @@ This repository contains two useful tools that were used when creating the [Apac
 - `shiro-hash-generator`
   - This is a Java application which uses the official Apache Shiro 1 libraries to generate hashes for testing
 
+A blog was created for the creation of the Hashcat module and is available [here](https://fin3ss3g0d.net/index.php/2024/06/24/crack-faster-hack-smarter-custom-hashcat-module-for-apache-shiro-1-sha-512/).
+
 ## Docker Image
 
 Both of the tools mentioned above are already built and exist inside of the `shiro1buntu-latest.tar` exported `Docker` image file, which can be downloaded under the `Releases` page. To import the image, run the following command below:
